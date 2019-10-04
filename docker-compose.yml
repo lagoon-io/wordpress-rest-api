@@ -5,6 +5,7 @@ services:
   web:
     container_name: web
     build: ./wordpress
+    restart: always
     ports:
       - '8080:8080'
     volumes:
