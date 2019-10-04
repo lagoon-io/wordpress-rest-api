@@ -17,7 +17,7 @@ RUN apt-get update -y && apt-get install -y \
     libpng-dev \
     libmagickwand-dev \
     sendmail \
-    mysql-client \
+    mariadb-client \
     vim
 
 # Apache 設定
